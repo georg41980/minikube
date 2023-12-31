@@ -34,9 +34,10 @@ Hinweise zur Installation von Minikube können hier abgerufen werden:
 Starte einen Minikube-Cluster:
 
 ```bash
-minikube start -p lab --vm-driver=virtualbox
+minikube start -p lab --cpus=4 --memory=6g --vm-driver=docker
 ```
 
 Optionen:
 - -p lab : Profilname ist lab
-- --vm-driver=virtualbox : verwende Virtualbox zur Virtualisierung
+- --vm-driver=virtualbox : verwende Virtualbox zur Virtualisierung 
+von virtualbox auf docker aud pi

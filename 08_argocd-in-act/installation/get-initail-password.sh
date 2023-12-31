@@ -1,0 +1,1 @@
+kubectl -n argocd get secret argocd-inital-admin-secret -o jsonpath="(.data.password)" | base64 -d && echo

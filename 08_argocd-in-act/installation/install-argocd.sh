@@ -1,2 +1,2 @@
 kubectl create namespace argocd
-kubectl appy -n manifests/install.yaml
+kubectl apply -f manifests/install.yaml
